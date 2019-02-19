@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.bundle.css">
+    <title><%=title%></title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="wrapper">
+            <section class="header">
+                <div><img src="../../img/profile_pic.jpg" alt="Profile Picture" id="profile_pic"></div>
+                <div class="main_info">
+                    <div class="wrapper_edit">
+                        <h1 id="person_name">John Smith </h1>
+                    </div>
+                    <div class="wrapper_edit edit_city">
+                        <p id="city_name">Portland, Oregon, USA</p>
+                    </div>
+                    <div class="wrapper_edit edit_lang">
+                        <p id="lang_name">English</p>
+                    </div>
+                    <ul class="skills_list editable">
+                        <li class="Strong">PHP</li>
+                        <li class="Strong">Ruby</li>
+                        <li class="Medium">JavaScript</li>
+                        <li class="Basic">ActionScript</li>
+                    </ul>
+                    <div class="wrapper_edit edit_skill">
+                        <button id="skill_adding">Add skills</button>
+                        <select class="select_level">
+                            <option>Strong</option>
+                            <option>Medium</option>
+                            <option>Basic</option>
+                        </select>
+                    </div>
+                </div>
+                <button onclick="window.print();return false;" class="print_button">Print this page</button>
+            </section>
